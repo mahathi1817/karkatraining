@@ -1,0 +1,8 @@
+.body{
+    background-image:url("./download.png");
+    /* background-repeat:repeat-x */
+    /* background-repeat: repeat-y;  */
+    background-repeat:no-repeat;
+    background-size:300px 200px;
+    background-position:top center;
+}

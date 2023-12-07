@@ -1,0 +1,102 @@
+.layout{
+    border: 3px solid black;
+    width: 100%;
+}
+.header{
+    height: 60px;
+    background-color: rgb(254, 171, 17);
+    margin: 10px 10px 10px 10px;
+}
+.box{
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    justify-content: space-evenly;
+}
+.box1{
+    display: flex;
+    background-color: black;
+    height: 40px;
+    width: 150px;
+}
+.box2{
+    display: flex;
+    background-color: black;
+    height: 40px;
+    width: 150px;
+}
+.box3{
+    display: flex;
+    background-color: black;
+    height: 40px;
+    width: 150px;
+}
+.box4{
+    display: flex;
+    background-color: black;
+    height: 40px;
+    width: 150px;
+}
+.box5{
+    display: flex;
+    background-color: black;
+    height: 40px;
+    width: 150px;
+}
+.box6{
+    display: flex;
+    background-color: black;
+    height: 40px;
+    width: 150px;
+}
+.box7{
+    display: flex;
+    background-color: black;
+    height: 40px;
+    width: 150px;
+}
+.box8{
+    display: flex;
+    background-color: black;
+    height: 40px;
+    width: 150px;
+}
+.box9{
+    display: flex;
+    background-color: black;
+    height: 40px;
+    width: 150px;
+}
+.sidebar{
+    display: flex;
+    margin: 10px 10px 10px 10px;
+}
+.side{
+    display: flex;
+    background-color: rgb(254, 171, 17) ;
+    height:500px;
+    width: 479px;
+}
+.middle{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.mid1{
+    display: flex;
+    
+    background-color: rgb(254, 171, 17) ;
+    height: 250px;
+    width: 479px;
+}
+.mid22{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* justify-content: space-evenly; */
+}
+.mid2{
+    display: flex;
+    background-color: rgb(254, 171, 17) ;
+    height: 250px;
+    width: 479px;
+}

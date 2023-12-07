@@ -1,0 +1,29 @@
+.main{
+    border: 2px solid black;
+    width: 500px;
+    height: 400px;
+    
+}
+.child1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.child2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    top: 30px;
+    right: -25px;
+}
+.child3{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+}

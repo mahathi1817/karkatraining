@@ -1,0 +1,16 @@
+#para1{
+    color: red;
+}
+#para2{
+    color: blue;
+}
+.color{
+    background-color:green;
+}
+h2{
+    background-color:pink;
+}
+
+*{
+    background-color:grey;
+}

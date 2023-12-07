@@ -1,0 +1,9 @@
+span{
+     padding: 50px;
+     background-color: blue;
+     display: inline-block;
+     /* display: none; */
+}
+div{
+    margin: 50px;
+}

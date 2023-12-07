@@ -1,0 +1,10 @@
+a=10
+b=30
+c=12
+d=3
+add=(a+b)
+print(add)
+mul=(add*c)
+print(mul)
+div=(mul/d)
+print(div)

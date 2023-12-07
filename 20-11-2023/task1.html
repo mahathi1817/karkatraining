@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="name" />
+    <input type="date" id="DOB" />
+    <input type="number" id="Salary" />
+    <button onclick="handelSumbit()">Sumbit</button>
+</body>
+
+<script>
+    function handelSumbit() {
+        let name = document.getElementById("name").value
+        let date = document.getElementById("DOB").value
+        let salary = document.getElementById("Salary").value
+
+        let myvalue = {
+            name: name,
+            DOB: date,
+            Salary: salary
+        }
+        console.log(myvalue)
+    }
+</script>
+</html>

@@ -1,0 +1,8 @@
+name=input("Enter name:")
+age=input("Enter age:")
+DOB=input("Enter Date of Birth(DOB):")
+height=input("Enter height:")
+weight=input("Enter weight:")
+gender=input("Enter gender:")
+degree=input("Enter degree:")
+is_alive=bool(input("Enter'True'if alive,else'False'"))

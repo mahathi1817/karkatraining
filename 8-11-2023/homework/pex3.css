@@ -1,0 +1,12 @@
+.main{
+    border: 2px solid rgb(19, 244, 19);
+    height: 250px;
+    width: 500px;
+    position: relative;
+}
+.main1{
+    border: 2px solid rgb(19, 244, 19);
+    height: 120px;
+    width: 200px;
+    position:absolute;left: 140px;right: 150px;top: 59px;
+}

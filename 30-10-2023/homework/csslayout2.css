@@ -1,0 +1,10 @@
+table{
+    border-collapse:collapse;
+}
+
+
+
+tr{
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Select a fruit</label>
+    <select id="Select Box">
+        <option value="apple">Apple</option>
+        <option value="Grapes">Grapes</option>
+        <option value="Orange">Orange</option>
+    </select>
+    <p id="para"></p>
+    <script>
+        function handelChange(){
+            let selectbox=document.getElementById("Selectbox").value;
+            let para=document.getElementById("para")
+            let Selectbox=document.getElementById("Selectbox")
+            Selectbox.addEventListener("Change",handleChange)
+            para.innerHTML=Selectbox
+        }
+        //     document.getElementById("myFrame").onload = function() {myFunction()};
+        //     function myFunction() {
+        //     document.getElementById("para").innerHTML = "Iframe is loaded.";
+        // }
+    </script>
+</body>
+</html>

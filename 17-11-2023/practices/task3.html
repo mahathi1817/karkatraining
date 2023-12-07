@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form onsubmit="call(event)">
+        <input type="text" id="input1" />
+        <input type="password" id="input2" />
+        <button>ok</button>
+        <script>
+            function call(e) {
+                e.preventDefault()
+                let input1 = document.getElementById("input1").value;
+                let input2 = document.getElementById("input2").value;
+                console.log(input1)
+                console.log(input2)
+            }
+        </script>
+    </form>
+</body>
+</html>

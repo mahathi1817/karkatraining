@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../26-10-2023"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "8-11-2023",
+		"liveServer.settings.port": 5501
+	}
+}

@@ -1,0 +1,61 @@
+.task1{
+    background-color: blueviolet;
+    height: 100%;
+    width: 100%;
+}
+.head{
+    background-color: rgb(202, 192, 192);
+    padding-left:90px;
+    color:white;
+    height: 180px;
+    
+}
+.navigation{
+    background-color: rgb(228, 0, 57);
+    padding-left: 50px;
+    color:white;
+    height: 100px;
+}
+.main{
+    background-color: rgb(34, 214, 34);
+    color:white;
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+}
+.article1{
+    background-color: rgb(53, 53, 233);
+    display: inline;
+    color:white;
+    height: 50px;
+    width: 25px;
+}
+.article2{
+    background-color: rgb(48, 48, 218);
+    display: inline;
+    color:white;
+    height: 50px;
+    width: 25px;
+}
+.task{
+    border: 2px solid blueviolet;
+    background-color: rgb(114, 209, 114) ;
+    color:white;
+    display: inline-block;
+}
+.footer{
+    background-color: orangered;
+    color:white;
+    display: block;
+    
+}
+.sidebar{
+    background-color: green;
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+    
+}
+.flex{
+    flex-direction:column;
+}

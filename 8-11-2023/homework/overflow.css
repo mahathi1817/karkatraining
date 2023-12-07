@@ -1,0 +1,10 @@
+.overflow{
+    height: 200px;
+    width: 500px;
+    background-color: rgb(14, 173, 14);
+    color: white;
+    overflow:auto;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: visible; */
+}

@@ -1,0 +1,12 @@
+img{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    height: 100px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    /* text-align: ; */
+}

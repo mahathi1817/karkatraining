@@ -1,0 +1,25 @@
+button{
+    background-color:orange;
+    border-width: 0cap;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+div{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+    
+}
+label{
+    background-color: rgb(46, 44, 44);
+    display:block;
+    height: 30px;
+}
+div{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    width: 200px;
+    
+}
+

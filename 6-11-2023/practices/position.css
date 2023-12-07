@@ -1,0 +1,52 @@
+.main{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    
+    
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    /* position: static;
+    position: relative; 
+    top: 25px;
+    bottom: 0px;
+    left: 25px;
+    right: 25px; */
+    /* position: absolute;
+    bottom: 0px;
+    right: 0px; */
+     /* display: none; */
+    /* position: absolute;
+    z-index: 102; */
+    
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    z-index: 103;
+    /* position: static; */
+    /* position: relative; */
+    /* top: 25px;
+    bottom: 0px;
+    left: 25px;
+    right: 25px; */
+    /* position: fixed; */
+    /* position: sticky; */
+    /* top: 10px; */
+    
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    /* position: static; */
+    /* position: relative; */
+    /* top: 25px;
+    bottom: 0px;
+    left: 25px;
+    right: 25px; */
+}

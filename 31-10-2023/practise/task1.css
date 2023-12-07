@@ -1,0 +1,5 @@
+.div{
+    background:teal url("./download.png") no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}

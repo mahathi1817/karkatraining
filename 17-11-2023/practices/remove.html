@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para1">I am para1</p>
+    <p id="para2">I am para2</p>
+    <button onclick="call()">Click</button>
+    <script>
+        function call(){
+            let para1=document.getElementById("para1")
+            para1.remove()
+        }
+    </script>
+</body>
+</html>
