@@ -1,7 +1,6 @@
 import React from "react";
 import { About } from "./About";
 import "./Home.css"
-import{Button} from "./Button"
 export const Home=()=>{
     let arr=[
      {
@@ -34,7 +33,7 @@ export const Home=()=>{
         <div>Home</div>
         <div className="color">
         <About myarr={arr}/>
-        <Button/>
+        <button/>
         </div>
         </>
     )
