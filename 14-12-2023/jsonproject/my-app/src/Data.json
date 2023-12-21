@@ -1,0 +1,54 @@
+
+    [
+        {
+            "img":"images/shirt1.png",
+            "text":"Crop Top",
+            "price":"$40",
+            "size":"L"
+
+        },
+        {
+            "img":"images/pant.png",
+            "text":"Strawberry printed shorts",
+            "price":"$13",
+            "size":"XS"
+        },
+        {
+            "img":"images/hoodie1.png",
+            "text":"Hoodie",
+            "price":"$40",
+            "size":"M"
+
+        },
+        {
+            "img":"images/blueaes.png",
+            "text":"Blue sweater",
+            "price":"$30",
+            "size":"S"
+        },
+        {   
+            "img":"images/shorts1.png",
+            "text":"Denim Shorts",
+            "price":"$24",
+            "size":"S" 
+        },
+        {
+            "img":"images/jacket.png",
+            "text":"Black Jacket",
+            "price":"$29",
+            "size":"M"
+        },
+        {
+            "img":"images/shirt2.png",
+            "text":"Purple doodle sweater",
+            "price":"$15",
+            "size":"L"
+        },
+        {
+            "img":"images/skirt.png",
+            "text":"Black Vintage Skirt",
+            "price":"$30",
+            "size":"S"
+        }
+        
+    ]
