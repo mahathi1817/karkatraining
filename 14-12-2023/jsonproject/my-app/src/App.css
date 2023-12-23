@@ -55,10 +55,10 @@ button{
   background-color: rgb(211, 206, 206);
   color: black;
   border-radius: 100px;
-  /* display: flex;
-  flex-direction: row; */
+  /* display: flex; */
+  /* flex-direction: row; */
 }
-/* .products{
-  display: flex;
-  flex-direction: row;
-} */
+/* .products{ */
+  /* display: flex; */
+  /* flex-direction: row; */
+/* } */
