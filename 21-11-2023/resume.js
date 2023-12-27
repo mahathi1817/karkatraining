@@ -2,7 +2,7 @@ let resume={
     my_details:{
         objective:"To become a VFX editor",
         name:"Mahathi",
-        date_of_birth:26-1-2006,
+        date_of_birth:"26-1-2006",
         phone:9445283582,
         email:"mahathica2006@gmail.com",
         address:"Manavilai, Thengapattanam, Kk Dist, Tamilnadu",
