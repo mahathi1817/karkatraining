@@ -1,0 +1,27 @@
+[
+    {
+        "img":"images/chair1.png",
+        "text":"Modern Single Sofa",
+        "price":"$40" 
+    },
+    {
+        "img":"images/lamp.png",
+        "text":"Ray Floor Lamp",
+        "price":"$33" 
+    },
+    {
+        "img":"images/chair2.png",
+        "text":"Warm Nordic Dwell Sofa",
+        "price":"$52" 
+    },
+    {
+        "img":"images/beanbag.png",
+        "text":"Grey Fur Beanbag",
+        "price":"$70" 
+    },
+    {
+        "img":"images/chair3.png",
+        "text":"Modern Accent Chair",
+        "price":"$40" 
+    }
+]
