@@ -28,12 +28,12 @@ export const Login = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className="loginpage">
+      <form onSubmit={handleSubmit}><b>Login page</b>
         <div className="email1">
         {/* <label>Email</label> */}
         <input
-          type="text"
+          type="email"
           placeholder="Email"
           value={input.email}
           onChange={(e) => setInput({ ...input, email: e.target.value })}/>
@@ -46,9 +46,9 @@ export const Login = () => {
           value={input.password}
           onChange={(e) => setInput({ ...input, password: e.target.value })} />
         </div>
-        <button type="submit" className="button1">LOG IN</button>
+        <button type="submit" className="button1">LOGIN</button>
+        <a href="/register" className="ca">Create account</a>
       </form>
-      <a href="/register" className="ca">Create account</a>
-    </div>
+        </div>
   );
 };

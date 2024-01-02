@@ -3,7 +3,8 @@ import React, { useState, useEffect } from 'react';
 export const Todo=()=> {
   const [todos, setTodos] = useState([]);
   const [task, setTask] = useState('');
-
+  
+ 
   useEffect(() => {
     const storedTodos = JSON.parse(localStorage.getItem('todos'));
     if (storedTodos) {
@@ -28,6 +29,8 @@ export const Todo=()=> {
     setTodos(newTodos);
   };
 
+  
+
   return (
     <div className="App">
       <header className="App-header">
@@ -49,9 +52,11 @@ export const Todo=()=> {
             </li>
           ))}
         </ul>
+
+
+       <div></div>
       </header>
     </div>
   );
 }
-
 export default Todo;

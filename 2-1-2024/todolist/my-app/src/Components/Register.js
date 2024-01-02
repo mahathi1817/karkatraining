@@ -23,22 +23,27 @@ export const Register=()=>{
         }
     }
     return(
-        <div>
+        <div className="registerpage">
+            <form1><b>Register Page</b>
         <div className="name">
-        <label>Name</label>
-        <input type="text" value={input.name} onChange={(e) => SetInput({...input, name: e.target.value})}/><br></br>
+            {/* <label><b>Name</b></label> */}
+        <input type="text" placeholder="Enter your name" value={input.name} onChange={(e) => SetInput({...input, name: e.target.value})}/><br></br>
         </div>
         <div className="email">
-        <label>Email</label>
-        <input type="email" value={input.email} onChange={(e)=> SetInput({...input, email: e.target.value})}/><br></br>
+            {/* <label><b>E-mail</b></label> */}
+        <input type="email" placeholder="Enter your e-mail" value={input.email} onChange={(e)=> SetInput({...input, email: e.target.value})}/><br></br>
         </div>
         <div className="pw">
-        <label>Password</label>
-        <input type="password" value={input.password} onChange={(e) => SetInput({...input, password: e.target.value})}/><br></br>
+            {/* <label><b>Password</b></label> */}
+        <input type="password"  placeholder="Enter your password" value={input.password} onChange={(e) => SetInput({...input, password: e.target.value})}/><br></br>
         </div>
-        <div className="button">
-        <button onClick={handleClick}>Register</button>
+        <div>
+        <button onClick={handleClick} className="button">Register</button>
         </div>
+        <div className="signup"> 
+            <h>Already have an account?<a href="/login" className="su">Sign Up</a></h>
+        </div>
+        </form1>
     </div>
     )
 }
