@@ -130,7 +130,7 @@ form {
   min-width: 200px; /* Set a minimum width for the list items */
 }
 
-.todo-list li button {
+.del {
   background-color: #ff6c6c;
   color: white;
   border: none;
@@ -217,3 +217,23 @@ h{
   color: black;
   font-size: 15px;
 }
+/* .edit-todo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  color: white;
+  min-width: 200px; 
+} */
+
+.box{
+  display: flex;
+}
+/* .cbox{
+  width: 20px;
+  height: 20px;
+
+} */

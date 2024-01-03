@@ -20,7 +20,7 @@ export const Login = () => {
 
     if (loggedUser) {
       alert("Login success");
-      window.location.href = "/hi";
+      window.location.href = "/todo";
       localStorage.setItem("loggedin", true);
     } else {
       alert("Wrong Email or Password");
