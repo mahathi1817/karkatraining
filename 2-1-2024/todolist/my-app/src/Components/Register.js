@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-// import {useNavigator} from "react-router-dom";
+
 export const Register=()=>{
     const [input,SetInput]=useState({
         name:"",

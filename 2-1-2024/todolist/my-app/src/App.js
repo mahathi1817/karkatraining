@@ -4,7 +4,8 @@ import './App.css';
 import { Home } from './Pages/Home';
 import { Login } from './Components/Login';
 import { Register } from './Components/Register';
-import {Todo} from "./Components/Todo"
+import {Todo} from "./Components/Todo";
+import {Profile} from "./Components/Profile"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/Register' element={<Register/>}/>
         <Route path='/Todo' element={<Todo/>}/>
         <Route path='/' element={<Home/>}/>
+        <Route path="/Profile" element={<Profile/>}/>
       </Routes>
       </BrowserRouter>
     </>

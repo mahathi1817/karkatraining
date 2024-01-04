@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export const Login = () => {
   const [input, setInput] = useState({
-    email: "",
+    name: "",
     password: "",
   });
 
@@ -14,7 +14,7 @@ export const Login = () => {
 
     if (local.length > 0) {
       loggedUser = local.find(
-        (user) => user.email === input.email && user.password === input.password
+        (user) => user.name === input.name && user.password === input.password
       );
     }
 
@@ -25,6 +25,11 @@ export const Login = () => {
     } else {
       alert("Wrong Email or Password");
     }
+
+    const username=JSON.stringify(input.name)
+    console.log(username)
+    localStorage.setItem("name",username)
+  
   };
 
   return (
@@ -33,10 +38,10 @@ export const Login = () => {
         <div className="email1">
         {/* <label>Email</label> */}
         <input
-          type="email"
-          placeholder="Email"
+          type="text"
+          placeholder="User name"
           value={input.email}
-          onChange={(e) => setInput({ ...input, email: e.target.value })}/>
+          onChange={(e) => setInput({ ...input, name: e.target.value })}/>
         </div>
         <div className="pw1">
         {/* <label>Password</label> */}
