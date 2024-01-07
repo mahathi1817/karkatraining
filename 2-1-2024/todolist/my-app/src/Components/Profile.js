@@ -16,7 +16,7 @@ export const Profile = () => {
       // You might want to show a confirmation message to the user
     };
   
-    return (
+  return (
       <div className="App">
         <header className="App-header">
           {/* ... (your existing code) */}

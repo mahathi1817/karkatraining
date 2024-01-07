@@ -53,7 +53,7 @@ export const Todo = () => {
     localStorage.setItem('todos', json);
   }, [todos]);
 
-  const user=JSON.parse(localStorage.getItem("name"))
+  const user = JSON.parse(localStorage.getItem("name"))
 
   return (
     <div className="App">
@@ -71,32 +71,36 @@ export const Todo = () => {
         </div>
 
         <div className='list'>
-        <ul className="todo-list">
-          {todos.map((todo, index) => (
-            <li key={index}>
-              {editing.status && editing.index === index ? (
-                <>
-                  <input
-                    type="text"
-                    value={editing.text}
-                    onChange={(e) => setEditing({ ...editing, text: e.target.value })}
-                  />
-                  <div className='updatebutton'>
-                  <button onClick={handleUpdateTodo} className='update'>Update</button>
-                  </div>
-                </>
-              ) : (
-                <>
-                  {todo}
-                  <div className='editbutton'>
-                  <button onClick={() => handleEditTodo(index)} className="edit">Edit</button>
-                  </div>
-                  <button onClick={() => handleRemoveTodo(index)} className="del">Remove</button>
-                </>
-              )}
-            </li>
-          ))}
-        </ul>
+          <ul className="todo-list">
+            {todos.map((todo, index) => (
+              <li key={index}>
+                {editing.status && editing.index === index ? (
+                  <>
+                    <input
+                      type="text"
+                      value={editing.text}
+                      onChange={(e) => setEditing({ ...editing, text: e.target.value })}
+                    />
+                    <div className='updatebutton'>
+                      <button onClick={handleUpdateTodo} className='update'>Update</button>
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    {todo}
+                    <div className='buttoncontainer'>
+
+                      <button onClick={() => handleEditTodo(index)} className="edit">Edit</button>
+                      <button onClick={() => handleRemoveTodo(index)} className="del">Remove</button>
+                    </div>
+                  </>
+                )}
+              </li>
+            ))}
+          </ul>
+          <div className='logout'>
+            <a href='/login'>Log Out</a>
+          </div>
         </div>
       </header>
     </div>

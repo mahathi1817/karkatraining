@@ -230,26 +230,11 @@ h{
   color: black;
   font-size: 15px;
 }
-/* .edit-todo{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  color: white;
-  min-width: 200px; 
-} */
 
 .box{
   display: flex;
 }
-/* .cbox{
-  width: 20px;
-  height: 20px;
 
-} */
 .update{
   background-color: #7bf0a4;
   color:black;
@@ -263,13 +248,39 @@ h{
 .updatebutton{
   padding-left: 15px;
 }
-.editbutton{
-  position:absolute; right: 80px;
-}
+
 .list{
   position: relative;
 }
 h5{
-  color: #04AA6D;
+  /* color:rgb(121, 172, 120); */
+  color:#04AA6D;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  
 }
+.buttoncontainer {
+  display: flex;
+  gap: 8px;
+} 
+
+.logout {
+  margin-top: 20px; 
+}
+.logout a{
+  text-decoration: none;
+  color:black; 
+  background-color:rgb(182, 196, 182); 
+  padding: 8px 16px;
+  border-radius: 4px; 
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  font-size: 15px;
+}
+.logout a:hover {
+  background-color:rgb(238, 240, 229); 
+}
+
+/* .check{
+  
+} */
