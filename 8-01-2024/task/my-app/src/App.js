@@ -1,43 +1,172 @@
-// import React from 'react';
-// import ToggleButton from './ToggleButton';
+// import { useRef } from 'react';
 
-// const App = () => {
+import { useEffect } from "react"
+
+// export default function Form() {
+//   const inputRef = useRef(null);
+
+//   function handleClick() {
+//     inputRef.current.focus();
+//   }
+
 //   return (
-//     <div>
-//       <h1>Toggle Button Example</h1>
-//       <ToggleButton />
-//     </div>
+//     <>
+//       <input ref={inputRef} />
+//       <button onClick={handleClick}>
+//         Focus the input
+//       </button>
+//     </>
 //   );
-// };
+// }
 
-// export default App;
 
-// import React from 'react';
-// import LoginLogoutButton from './LoginLogoutButton';
+// import { useRef } from 'react';
 
-// const App = () => {
+// export default function Counter() {
+//   let ref = useRef(0);
+
+//   function handleClick() {
+//     ref.current = ref.current + 1;
+//     alert('You clicked ' + ref.current + ' times!');
+//   }
+
 //   return (
-//     <div>
-//       <h1>Login/Logout Button Example</h1>
-//       <LoginLogoutButton />
-//     </div>
+//     <button onClick={handleClick}>
+//       Click me!
+//     </button>
 //   );
-// };
+// }
 
-// export default App;
 
-import React from 'react';
-import CharacterCounter from './CharacterCounter';
+// import { useState, useRef, useEffect } from 'react';
 
-const App = () => {
+// function VideoPlayer({ src, isPlaying }) {
+//   const ref = useRef(null);
+
+//   useEffect(() => {
+//     if (isPlaying) {
+//       ref.current.play();
+//     } else {
+//       ref.current.pause();
+//     }
+//   }, [isPlaying]);
+
+//   return <video ref={ref} src={src} loop playsInline />;
+// }
+
+// export default function App() {
+//   const [isPlaying, setIsPlaying] = useState(false);
+//   return (
+//     <>
+//       <button onClick={() => setIsPlaying(!isPlaying)}>
+//         {isPlaying ? 'Pause' : 'Play'}
+//       </button>
+//       <VideoPlayer
+//         isPlaying={isPlaying}
+//         src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+//       />
+//     </>
+//   );
+// }
+
+
+// import { useState, useEffect } from 'react';
+// import { createConnection } from './chat.js';
+
+// export default function ChatRoom() {
+//   useEffect(() => {
+//     const connection = createConnection();
+//     connection.connect();
+//     return () => connection.disconnect();
+//   }, []);
+//   return <h1>Welcome to the chat!</h1>;
+// }
+
+
+// import { useState, useEffect } from 'react';
+// import { createConnection } from './chat.js';
+
+// const serverUrl = 'https://localhost:1234';
+
+// function ChatRoom({ roomId }) {
+//   useEffect(() => {
+//     const connection = createConnection(serverUrl, roomId);
+//     connection.connect();
+//     return () => connection.disconnect();
+//   }, [roomId]);
+
+//   return <h1>Welcome to the {roomId} room!</h1>;
+// }
+
+// export default function App() {
+//   const [roomId, setRoomId] = useState('general');
+//   const [isDark , setIsDark] =useState('false')
+//   return (
+//     <>
+//       <label>
+//         Choose the chat room:{' '}
+//         <select
+//           value={roomId}
+//           onChange={e => setRoomId(e.target.value)}
+//         >
+//           <option value="general">general</option>
+//           <option value="travel">travel</option>
+//           <option value="music">music</option>
+//           <option value="dance">dance</option>
+//         </select>
+//       </label>
+//       <label>
+//         <input
+//           type="checkbox"
+//           checked={isDark}
+//           onChange={e => setIsDark(e.target.checked)}
+//         />
+//         Use dark theme
+//       </label>
+//       <hr />
+//       <ChatRoom roomId={roomId}
+//        theme={isDark ? 'dark' : 'light'} 
+//       />
+//     </>
+//   );
+// }
+
+// const [count,setCount]=usestate(0)
+// const [count1,setCount1]=usestate(0)
+
+// useEffect(()=>{
+//   return()=>{
+//     console.log("execute")
+//   }
+// },[count]);
+
+// return(
+//   <>
+//   <p>count:{count}</p>
+//   <button onClick={()=>setCount (count+1)}></button>
+//   </>
+// );
+
+import { useState, useEffect } from 'react';
+
+function ExampleComponent() {
+  const [count, setCount] = useState(0);
+  const [count1, setCount1] = useState(0);
+
+  useEffect(() => {
+    console.log('Effect is running');
+    
+    return () => {
+      console.log('Cleanup function executed');
+    };
+  }, [count]);
+
   return (
-    <div>
-      <h1>Character Counter Example</h1>
-      <CharacterCounter />
-    </div>
+    <>
+      <p>count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment Count</button>
+    </>
   );
-};
+}
 
-export default App;
-
-
+export default ExampleComponent;
