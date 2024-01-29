@@ -1,0 +1,39 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "age": 28,
+      "position": "Software Engineer",
+      "salary": 80000.0
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "age": 35,
+      "position": "Data Analyst",
+      "salary": 65000.0
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "age": 40,
+      "position": "Marketing Specialist",
+      "salary": 70000.0
+    },
+    {
+      "id": 4,
+      "name": "Diana Miller",
+      "age": 32,
+      "position": "HR Manager",
+      "salary": 90000.0
+    },
+    {
+      "id": 5,
+      "name": "Eva Green",
+      "age": 25,
+      "position": "Marketing Coordinator",
+      "salary": 60000.0
+    }
+  ]
+}
