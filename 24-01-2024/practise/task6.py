@@ -1,26 +1,10 @@
-import mysql.connector
+import pandas as pd
 import json
 
-conn = mysql.connector.connect(
-    host='127.0.0.1',
-    user='root',
-    password='ronnieinsql',
-    database='karka'
-)
-cursor = conn.cursor()
+xlfilepath = r'C:\Users\Administrator\Downloads\sheet1.xlsx'
 
-def insert_data(json_data):
-    query = "INSERT INTO students (name, place, ...) VALUES (%s, %s, ...)"
-    values = (json_data['name'], json_data['place'], ...) 
-    cursor.execute(query, values)
-    conn.commit()
-
-sample_json = {
-    'name': 'Felix',
-    'place': 'bangalore',
-}
-
-insert_data(sample_json)
-
-cursor.close()
-conn.close()
+df = pd.read_excel(xlfilepath)
+    
+data_dict = df.to_dict(orient='records')
+    
+print(data_dict)
